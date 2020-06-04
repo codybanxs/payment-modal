@@ -5,37 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 1 - Step 2</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+
+<div class="content">
   <main class="wrapper">
-    <header class="tophead">
-      <ul class="navdots">
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+    <ul class="nav">
+        <li class="dot"><i class="fas fa-circle"></i></li>
+        <li class="dot"><i class="fas fa-circle"></i></li>
+        <li class="dot"><i class="fas fa-circle"></i></li>   
+    </ul>
+    <div class="tophead">
       <h2>Payment method</h2>
-    </header>
+    </div>
     <section class="payments">
-      <section class="visa">
-        <img class="logo" src="img/visa.svg" alt="">
-        <h3>Visa</h3>
+      <div class="card">
+        <section class="visa">
+          <img class="logo" src="img/visa.svg" alt="">
+          <h3>Visa</h3>
+        </section>
+        <section class="mastercard">
+          <img class="logo" src="img/mastercard.svg" alt="">
+          <h3>Mastercard</h3>
+          <img class="logo2" src="img/check.svg" alt="">
+        </section>
+        <section class="maestro">
+          <img class="logo"src="img/maestro.svg" alt="">
+          <h3>Maestro</h3>
       </section>
-      <section class="mastercard">
-        <img class="logo" src="img/mastercard.svg" alt="">
-        <h3>Mastercard</h3>
-      </section>
-      <section class="maestro">
-        <img class="logo"src="img/maestro.svg" alt="">
-        <h3>Maestro</h3>
-      </section>
-    <aside class="cta">
-      <button>next step <span><img src="img/arrow.svg" alt=""></span></button>
-    </aside>
+      <section class="cta">
+        <button class="button">next step <span class="arrow"><img src="img/arrow.svg" alt=""></span>
+        </section>
+      </form>
+      </div>
     </section>
 
+
   </main>
+
+</div>
+ 
 </body>
 </html>
